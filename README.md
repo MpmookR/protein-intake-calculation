@@ -1,1 +1,1 @@
-# protein-intake-calculation
+# protein-intake-calculator
