@@ -1,0 +1,149 @@
+
+:root{
+    /*=====colors======*/
+    --deepGreen-color: #617451;
+    --lightGreen-color: #E3EBDC;
+    --grey-color:#929292;
+    --black-color: #000;
+    --white-color: #FFF;
+}
+
+.container {
+    margin-inline: 1.5rem;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("./img/bg_1.png");
+    background-size: 1728px;
+
+}
+
+h1{
+text-align: center;
+padding-top: 3rem;}
+
+.user-details{
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 32px;
+    padding: 24px;
+    justify-items: center;
+    background-color: var(--lightGreen-color);
+    border-radius: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 748px;
+
+}
+.input-box{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input{
+    height: 32px;
+    border-radius: 8px;
+    border: var(--lightGreen-color);
+    color: black;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    border: var(--deepGreen-color);
+    background-color: var(--lightGreen-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: var(--deepGreen-color);
+    color: white;
+}
+
+.btn_submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.details{
+    font-weight: 600;
+}
+
+#result_value{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.result_unit{
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+}
+
+.result-detail{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    background-color: var(--deepGreen-color);
+    width: 748px;
+    border-radius: 16px;
+    color: var(--white-color);
+
+}
+
+.result_show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.note_heading{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.note_title-header{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.note_title-details{
+    margin: 0;
+    color: var(--grey-color);
+}
+
+.note_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.note{
+    display: flex;
+    width: 748px;
+    padding: 24px;
+    align-items: flex-start;   
+    justify-content: space-around; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.note_title-details{
+    margin-bottom: 0.5rem;
+}
+
